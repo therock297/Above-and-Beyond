@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    background-color: rgb(10, 8, 11);
+ }
+ 
+ 
+ .about-1{
+    margin: 30px;
+    padding: 5px;
+ }
+ .about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+ }
+ .about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+ }
+ 
+ 
+ 
+ .about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(221, 219, 83);
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgb(84, 2, 248);
+ }
+ 
+ 
+ .about-item i{
+    font-size: 43px;
+    margin: 0;
+ }
+ 
+ 
+ .about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+ }
+ 
+ 
+ .about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #079f4b;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+ }
+ 
+ .about-item:hover{
+    background-color: #109638;
+ }
+ .about-item:hover i,
+ .about-item:hover h3,
+ .about-item:hover p{
+    color: #fff;
+ }
+ .about-item:hover hr{
+    background-color: #fff;
+ }
+ 
+ 
+ .about-item:hover i{
+    transform: translateY(-20px);
+ }
+ .about-item:hover i,
+ .about-item:hover h3,
+ .about-item:hover hr{
+    transition: all 400ms ease-in-out;
+ }
+ 
+ .jumbotron {
+    color:rgb(251, 249, 249);
+    font-style: italic;
+    font-weight: bolder;
+    background-image: url(bmw.jpg);
+ }
+
+ .logout-btn-2:hover{
+    background-color: red;
+ }
+
+ h2{
+    color: red ;
+    font-weight: bolder;
+ }
+
+ h2:hover{
+    font-size: 40px;
+ }
+
+ #user2{
+    color: antiquewhite;
+    font-size: larger;
+ }
+
+ img:hover{
+    transition: 0.03s ease-in-out;
+    transform: scale(1.1);
+ }

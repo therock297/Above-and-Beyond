@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Highcharts Column Chart Example</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    
+    <script>
+      Highcharts.chart('container', {
+        chart: {
+          type: 'column'
+        },
+        title: {
+          text: 'Monthly Sales'
+        },
+        xAxis: {
+          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+        },
+        yAxis: {
+          title: {
+            text: 'Sales'
+          }
+        },
+        series: [{
+          name: 'Sales',
+          data: [1000, 1500, 2000, 2500, 3000, 3500]
+        }]
+      });
+    </script>
+  </body>
+</html>

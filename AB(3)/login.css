@@ -1,0 +1,96 @@
+h2 {
+  color: rgba(149, 219, 10, 0.906);
+  font-weight: bold;
+  text-align: center;
+  background-color: aquamarine;
+  background-image: url("7.jpg");
+  background-size: cover;
+}
+
+/* 
+h2:hover {
+  background-color: grey;
+  font-size: 200%;
+} */
+
+.jumbotron {
+  background-color: antiquewhite;
+  /* background-image: url("6.jpg");
+  background-size: contain ; */
+}
+
+
+
+.container {
+  background-color: hsl(102, 8%, 69%);
+  backdrop-filter: blur(10px);
+  padding: 5px 20px rgb(18, 176, 212)px;
+  border: 1px solid hsl(102, 8%, 69%);
+  border-radius: 7px;
+  /* By giving border radius the border gets curved */
+}
+
+/* .login-btn{
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;  */
+/* The box will become curvy at the edges */
+/* cursor: pointer;
+  width: 10%; */
+/* Given below is the code to align button to centre
+  margin-block: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;*/
+/* -ms-transform: translate(-50%, -50%);
+  transform: translate(450%, -50%); 
+} */
+
+#login-error {
+  color: red;
+  font-size: smaller;
+}
+
+.btn:hover {
+  background-color: red;
+  ;
+}
+
+.form-group {
+  font-size: 200%;
+  font-weight: bold;
+  color: black
+}
+
+.centered {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img:hover {
+  transition: 0.03s ease-in-out;
+  transform: scale(1.1);
+}
+
+/* Code for footer */
+/* footer{
+  background-color: black;
+}
+.container-fluid{
+  width: 90%;
+}
+h3{
+  writing-mode: vertical-rl;
+  font-size: 30px;
+  transform: rotate(180deg);
+}
+hr{
+  background-color: white;
+  height: 2px;
+  width: 50%;
+  margin-left: 0;
+} */

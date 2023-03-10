@@ -1,0 +1,96 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .lights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(32, 37, 48)
+  }
+  .madhav{
+    background-color:rgb(64, 180, 234);
+  }
+  
+  h2{
+    font-weight: 550;
+  }
+
+  h2:hover{
+    font-size: 35px;
+  }
+  
+  .light {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 20px;
+  }
+  
+  .bulb {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 10px auto;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5) inset;
+    background-image: url(bulb2.svg);
+    background-size: contain;
+  }
+
+  .bulb:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: rotate(10deg);
+    filter: drop-shadow(0 0 2px #12784c) drop-shadow(0 0 2px #085e1b) drop-shadow(0 0 2px #0c764c) drop-shadow(0 0 5px #fff);
+  }
+  
+  #light1 .bulb {
+    background: url(bulb2.svg) no-repeat center center;
+    background-size: contain;
+  }
+  
+  #light2 .bulb {
+    background: url(bulb2.svg) no-repeat center center;
+    background-size: contain;
+  }
+
+  .color-picker {
+    margin: 10px auto;
+  }
+  
+  label {
+    color: #ce8888;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* code for footer */
+  footer{
+    background-color: black;
+ }
+ .container-fluid{
+    width: 90%;
+ }
+ h3{
+    writing-mode: vertical-rl;
+    font-size: 30px;
+    transform: rotate(180deg);
+ }
+ hr{
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    margin-left: 0;
+ }
+
+ .jumbotron {
+  background-color: #abb769;
+  background-image: url(https://cdn.wallpapersafari.com/83/44/FOnoH8.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
